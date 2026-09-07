@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CartDrawer from "./components/CartDrawer";
 import ScrollToTop from "./components/ScrollToTop";
-import ContactModel from "./components/ContactModel"
 import Ofertas from "./pages/Ofertas";
 import Rock from "./pages/Rock";
 import Electronica from "./pages/Electronica";
