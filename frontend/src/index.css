@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+ 
+:root {
+  --vinyl-black: #141311;
+  --paper: #ece4d3;
+  --amber: #d98e2b;
+  --wine: #7a2a2e;
+  --grey: #8b8574;
+}
+ 
+body {
+  font-family: "Inter", sans-serif;
+}
+ 
+.font-display {
+  font-family: "Bebas Neue", sans-serif;
+}
+ 
+.font-mono {
+  font-family: "IBM Plex Mono", monospace;
+}
+ 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
